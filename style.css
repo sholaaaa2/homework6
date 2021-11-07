@@ -1,0 +1,612 @@
+:root{
+  margin: auto;
+  font-size: 0.9vw;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+form{float: left;}
+button{
+  border: none;
+  border-radius: 5vw;
+  cursor: pointer;
+}
+
+/* Хедер */
+header{
+  width: 100%;
+  height: 57.2vw;
+  background-color: black;
+  position: relative;
+}
+#logo{
+  width: 2.8vw;
+  float: left;
+  margin-top: 3vw;
+  margin-left: 5.1vw;
+}
+a{
+  color: white;
+  text-decoration: none;
+  height: 0.9vw;
+  vertical-align: super;
+
+}
+header .contact:nth-of-type(1){
+  margin-left: 57vw;
+  float: left;
+  margin-top: 3.6vw;
+  width: 10.3vw;
+  height: 1.7vw;
+
+}
+header .contact:nth-of-type(2){
+  margin-left: 2.3vw;
+  float: left;
+  margin-top: 3.4vw;
+  width: 10.3vw;
+  height: 1.7vw;
+
+}
+header .contact:nth-of-type(1) img, header .contact:nth-of-type(2) img{
+  margin-right: 0.3vw;
+  width: 16.1%;
+}
+#log{
+  width: 6.3vw;
+  height: 2.8vw;
+  background-color: white;
+  color: #135EC5;
+  /* border-radius: 5vw; */
+  font-size: 0.9vw;
+  font-weight: 900;
+  float: left;
+  margin-top: 2.8vw;
+  margin-left: 2.3vw;
+}
+#log:active{
+  transform: scale(0.9,0.9);
+}
+header span:nth-of-type(1),header span:nth-of-type(2){
+  float: left;
+  clear: both;
+  display: inline-block;
+  position: absolute;
+  color: #12110F;
+  height: 9.3vw;
+  font-size: 9.3vw;
+  font-weight: 700;
+  top:13.8vw;
+  left: 30.1vw;
+  line-height: 1;
+}
+header span:nth-of-type(2){
+  top:21.5vw;
+  left: 16vw;
+  word-spacing: 22.2vw;
+}
+.circle{
+  display: inline-block;
+  width: 0.5vw;
+  height: 2.5vw;
+  float: right;
+  position: absolute;
+  top: 24.1vw;
+  /* margin-top: 24.1vw;
+  margin-right: 4.1vw; */
+}
+.circle div{
+  width: 100%;
+  height: 0.5vw;
+  border-radius: 50%;
+  background-color: #3C3C3C;
+  margin-bottom: 0.5vw;
+}
+.circle div:nth-of-type(2){
+  background-color: #135EC5;
+}
+#a5{
+  width: 40vw;
+  z-index: 1;
+  position: absolute;
+  top:17.3vw;
+  left: 30.6vw;
+}
+header span:nth-of-type(3){
+  position: absolute;
+  color: white;
+  top: 46.3vw;
+  left: 44.9vw;
+  font-weight: 700;
+  line-height: 1;
+}
+header nav{
+  position: absolute;
+  top: 49.9vw;
+  left: 11.9vw;
+  /* width: 77.7vw; */
+}
+header nav input{
+  width: 16.7vw;
+  float: left;
+  border: none;
+  background-color: black;
+  font-size: 1.5vw ;
+  font-weight: 700;
+  color: #3C3C3C;
+  border-bottom: 1px solid #3C3C3C;
+  margin-right: 5.5vw;
+  line-height: 2vw;
+}
+.bt1{
+  width: 10.9vw;
+  height: 2.8vw;
+  background-color:#135EC5 ;
+  color:white ;
+  font-size: 0.9vw;
+  font-weight: 700;
+  position: absolute;
+  /* float: left; */
+}
+.bt1:active{
+  transform: scale(0.9,0.9);
+  background-color: #E2E2E2;
+
+}
+
+
+/* Первая навигация с марками машин */
+.first {
+  width: 100%;
+  height: 46vw;
+  background-color: white;
+  position: relative;
+}
+.first span{
+  position: absolute;
+  color: #C1C1C1;
+  top: 3vw;
+  left: 44.9vw;
+  font-weight: 700;
+  line-height: 1;
+}
+.mark{
+  position: absolute;
+  top: 7.3vw;
+  left: 5.2vw;
+  float: left;
+
+}
+.mark img{
+  /* width: 3.4vw; */
+  height: 3vw;
+  float: left;
+  margin-right: 9.8vw;
+  opacity: 0.4;
+}
+.mark a:nth-of-type(7) img{
+  /* width: 5.6vw; */
+  margin-right: 0vw;
+}
+.mark img:hover{
+  opacity: 1;
+}
+hr{
+  height: 1px;
+  position: absolute;
+  top: 14vw;
+  width: 100%;
+  border: none;
+  background-color: #EBEBEB;
+}
+.first div div:nth-of-type(1), .first div div:nth-of-type(2){
+    float: left;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    height: 8.9vw;
+    font-size: 8.9vw;
+    font-weight: 700;
+    top:20.6vw;
+    left: 8.9vw;
+    line-height: 1;
+    text-shadow: 0 0px 9px rgb(0 0 0 / 7%);
+}
+.first div div:nth-of-type(2){
+  top:27.3vw;
+  left:14.5vw;
+}
+#a1{
+  position: absolute;
+  width: 26.5vw;
+  top: 23.4vw;
+  left:12.2vw;
+}
+.first div div:nth-of-type(3){
+  float: left;
+  font-size: 3vw;
+  color: #135EC5;
+  position: absolute;
+  top: 22.8vw;
+  left: 51.3vw;
+  font-weight: 700;
+}
+.first div div:nth-of-type(4){
+  width: 35vw;
+  float: left;
+  color: #C1C1C1;
+  position: absolute;
+  top: 28.3vw;
+  left: 51.3vw;
+  line-height: 2;
+}
+.first div button{
+  top: 34.6vw;
+  left: 51.3vw;
+}
+
+
+/* Главное содержимое */
+article{
+  position: relative;
+  width: 100%;
+  height:135vw;
+}
+
+/* Верх артикл */
+article section:nth-of-type(1){
+  background-color: #135EC5;
+  height: 27.4vw;
+}
+article section:nth-of-type(1) div{
+  float: left;
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 7.4vw;
+  left: 27.3vw;
+  font-weight: 800;
+}
+article section:nth-of-type(1) button{
+  border: 3px solid white;
+  top:13.9vw;
+  left:44.5vw;
+
+}
+article section:nth-of-type(1) img{
+  width: 31.5vw;
+  position: absolute;
+  float: left;
+  top: 20.5vw;
+  left: 32.9vw;
+}
+
+/* Малая реклама */
+section:nth-of-type(2){
+  position: absolute;
+  background-color: white;
+  width: 23.5vw;
+  height: 28.8vw;
+  box-shadow: 0 0 3px lightgrey;
+  top: 44.1vw;
+  left: 9vw;
+}
+.blue{
+  height: 10vw;
+  /* background: linear-gradient(45deg, #135EC5, #135DC3); */
+  background-color: #135DC3;
+  position: relative;
+}
+.blue span{
+  color: #135EC5;
+  height: 5.7vw;
+  width: 100%;
+  display: inline-block;
+  font-size: 6.8vw;
+  text-shadow: 0 0 5px #1759b4;
+  font-weight: 900;
+  line-height: 0.8;
+  float: left;
+  position: absolute;
+  top:1.9vw;
+  left:0;
+}
+.bt2{
+  width: 4.3vw;
+  height: 1.5vw;
+  background-color: white;
+  color: #135EC5;
+  position: absolute;
+  top:1.4vw;
+  left:17.3vw;
+  font-size: 0.7vw;
+  font-weight: 800;
+}
+.bt2:active{
+  transform: scale(0.9,0.9);
+  background-color: #E2E2E2;
+
+}
+
+section:nth-of-type(2) img{
+  width: 14.1vw;
+  position: absolute;
+  top: 6.3vw;
+  left: 4.3vw;
+}
+section:nth-of-type(2) .info div:nth-child(2){
+  position: absolute;
+  font-size: 1.2vw;
+  float: left;
+  top: 16.7vw;
+  left: 4.2vw;
+  font-weight: 800;
+}
+section:nth-of-type(2) .info div:nth-child(3){
+  position: absolute;
+  color: #135EC5;
+  /* font-size: 1.2vw; */
+  float: left;
+  top: 18.8vw;
+  left: 8.7vw;
+  font-weight: 700;
+}
+section:nth-of-type(2) .info div:nth-child(4){
+  position: absolute;
+  color: #C1C1C1;
+  /* font-size: 1.2vw; */
+  float: left;
+  top: 21.3vw;
+  left: 4.6vw;
+  font-weight: 500;
+}
+section:nth-of-type(2) .info div:nth-child(5){
+  position: absolute;
+  font-size: 1.2vw;
+  color: #16AD2C;
+  float: left;
+  top: 24.6vw;
+  left: 2.6vw;
+  font-weight: 800;
+}
+section:nth-of-type(2) .info .bt1{
+  top: 24vw;
+  left: 10.7vw
+}
+
+/* Большая реклама */
+section:nth-of-type(3){
+  position: absolute;
+  background-color: white;
+  width: 48vw;
+  height: 34.5vw;
+  box-shadow: 0 0 3px lightgrey;
+  top: 40.4vw;
+  left: 42.7vw;
+  overflow: hidden;
+}
+section:nth-of-type(3) .info{
+  width: 25.8vw;
+  float: left;
+}
+article section:nth-of-type(3) .info div:nth-child(1){
+  font-size: 0.7vw;
+  color: #E2E2E2;
+  position: absolute;
+  float: left;
+  top: 3.5vw;
+  left: 3vw;
+}
+section:nth-of-type(3) .info div:nth-child(2){
+  position: absolute;
+  font-size: 1.2vw;
+  color: #16AD2C;
+  float: left;
+  top: 3.1vw;
+  left: 17.6vw;
+  font-weight: 800;
+}
+section:nth-of-type(3) .info div:nth-child(3){
+  position: absolute;
+  font-size: 1.2vw;
+  float: left;
+  top: 11.2vw;
+  left: 2.9vw;
+  font-weight: 800;
+  color: #135EC5;
+}
+section:nth-of-type(3) .info div:nth-child(4){
+  width: 16.1vw;
+  float: left;
+  color: #C1C1C1;
+  position: absolute;
+  top: 14.7vw;
+  left: 2.9vw;
+  line-height: 2.5;
+}
+section:nth-of-type(3) .info .bt1{
+  top:26.8vw;
+  left: 2.9vw;
+}
+section:nth-of-type(3) .blue{
+  height: 100%;
+  width: 22.2vw;
+  float: right;
+
+}
+section:nth-of-type(3) .blue .bt2{
+  top: 2.9vw;
+  left: 16.2vw;
+}
+#a2{
+  height: 18.3vw;
+  /* width: 22.3vw; */
+  position: absolute;
+  top: 8.2vw;
+  left:-4.2vw;
+
+}
+.blue .circle{
+  width: 2.6vw;
+  height: 0.6vw;
+  position: absolute;
+  float: left;
+  top:29.8vw;
+  left: 10.2vw;
+}
+.blue .circle div{
+  width: 0.3vw;
+  height: 0.3vw;
+  background-color: #1550A1;
+  margin-right: 0.7vw;
+  margin-bottom: 0;
+  float: left;
+
+}
+.blue .circle div:nth-child(2){
+  background-color: white;
+  width: 0.5vw;
+  height: 0.5vw;
+  margin-top:-0.1vw;
+}
+.blue .circle div:last-of-type{
+  margin: 0;
+}
+
+
+/* Нижняя часть */
+section:nth-of-type(4){
+  position: absolute;
+  background-color: white;
+  width: 73.9vw;
+  height: 43.7vw;
+  box-shadow: 0 0 3px lightgrey;
+  top: 82.5vw;
+  left: 13vw;
+
+}
+
+/* Навигация нижней части */
+section:nth-of-type(4) nav{
+  height: 24.7vw;
+}
+section:nth-of-type(4) input{
+  font-size: 1vw;
+}
+section:nth-of-type(4) nav input{
+  width: 15.4vw;
+  float: left;
+  border: none;
+  background-color: white;
+  font-weight: 700;
+  color: #3C3C3C;
+  border-bottom: 1px solid #EBEBEB;
+  margin-right: 1.3vw;
+  line-height: 2vw;
+
+}
+section:nth-of-type(4) nav input:focus{
+  color: black;
+}
+section:nth-of-type(4) nav .n1 input:nth-child(2){
+  background-image: url(./img/pin.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 0.9vw;
+}
+section:nth-of-type(4) .n1 input:nth-child(2):focus{
+  background-image: none;
+}
+.n1, .n2, .n3{
+  height: 2vw;
+  width: 68.9vw;
+  position: absolute;
+  left: 2.5vw;
+  float: left;
+}
+.n1{
+  top: 3.7vw;
+}
+section:nth-of-type(4) hr{
+  top: 8.9vw;
+}
+.n2{
+  height: 2.8vw;
+  width: 69.6vw;
+  top: 11.9vw;
+}
+.n2 img{
+  height: 2.5vw;
+  margin-right: 7.2vw;
+}
+.n3{
+  top: 19vw;
+}
+
+/* Подвал нижней части */
+footer{
+  width: 100%;
+  height: 19vw;
+  position: absolute;
+  top: 24.7vw;
+  background-color: #135EC5;
+}
+.hide{
+  width: 9.5vw;
+  height: 1.8vw;
+  background-color: #135EC5;
+  font-size: 0.7vw;
+  color: white;
+  text-align: center;
+  border-radius: 0.9vw;
+  font-weight: 700;
+  line-height: 3;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  top: -1.8vw;
+  left: 32.3vw;
+}
+footer input{
+  width: 15.4vw;
+  float: left;
+  border: none;
+  background-color: #135EC5;
+  font-weight: 700;
+  color: white;
+  border-bottom: 1px solid #3676CE;
+  margin-right: 1.3vw;
+  line-height: 2vw;
+  background-image: none;
+}
+footer input::-webkit-input-placeholder {
+    color: #6D90D4;
+}
+footer input:focus{
+  color: white;
+}
+footer .n1{
+  top: 3.7vw;
+}
+footer .n2{
+  top: 8.8vw;
+}
+#search{
+  position: absolute;
+  width: 10.3vw;
+  height: 2.8vw;
+  background-color: white;
+  color: #135EC5;
+  /* border-radius: 5vw; */
+  font-size: 0.9vw;
+  font-weight: 900;
+  float: left;
+  top: 13.3vw;
+  left: 31.8vw;
+}
+#search:active{
+  transform: scale(0.9,0.9);
+}
